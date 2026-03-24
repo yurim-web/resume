@@ -45,6 +45,7 @@ const careers = [
       {
         name: 'Swedish Nutra',
         desc: '광고주 자사몰',
+        period: '2025.11 ~ 2025.12  |  수정보완 2026.02',
         contribution: '프론트엔드 100%',
         links: [{ label: '사이트', url: 'https://swedishnutra.kr/' }],
         tasks: [
@@ -135,6 +136,9 @@ export default function Career() {
                       <span className={styles.projectName}>{proj.name}</span>
                       {proj.desc && (
                         <span className={styles.projectDesc}>{proj.desc}</span>
+                      )}
+                      {proj.period && (
+                        <span className={styles.projectPeriod}>{proj.period}</span>
                       )}
                     </div>
                     <div className={styles.projectMeta}>

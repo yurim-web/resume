@@ -98,6 +98,14 @@
   color: var(--text-light);
 }
 
+.projectPeriod {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-light);
+  letter-spacing: 0.02em;
+}
+
 .projectMeta {
   display: flex;
   align-items: center;
