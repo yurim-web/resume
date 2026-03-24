@@ -1,0 +1,81 @@
+.section {
+  margin-bottom: 1.5rem;
+}
+
+/* Achievements */
+.achieveList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.achieveItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.88rem;
+  color: var(--text-sub);
+  line-height: 1.65;
+}
+
+.checkIcon {
+  flex-shrink: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: rgba(72, 187, 120, 0.15);
+  color: #276749;
+  font-size: 0.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.15rem;
+}
+
+/* Education Grid */
+.eduGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.subTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--navy);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.7rem;
+}
+
+.timelineList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.timelineItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.timelinePeriod {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+}
+
+.timelineContent {
+  font-size: 0.83rem;
+  color: var(--text-sub);
+  line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+  .eduGrid { grid-template-columns: 1fr; }
+}

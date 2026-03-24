@@ -1,0 +1,15 @@
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.content p {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: var(--text-sub);
+}
