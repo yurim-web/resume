@@ -32,7 +32,7 @@
 }
 
 .companyName {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
   font-size: 1.05rem;
   font-weight: 800;
   color: var(--navy);
@@ -87,7 +87,7 @@
 }
 
 .projectName {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--navy);
@@ -99,7 +99,7 @@
 }
 
 .projectPeriod {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
   font-size: 0.72rem;
   font-weight: 600;
   color: var(--text-light);
@@ -115,7 +115,7 @@
 
 .link {
   font-size: 0.72rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
   font-weight: 600;
   color: var(--accent);
   text-decoration: none;
@@ -163,7 +163,7 @@
 }
 
 .achieveLabel {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.1em;

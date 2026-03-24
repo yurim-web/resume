@@ -42,7 +42,7 @@
 }
 
 .subTitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--navy);
@@ -63,7 +63,7 @@
 }
 
 .timelinePeriod {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--accent);
