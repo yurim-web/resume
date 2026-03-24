@@ -12,6 +12,23 @@
 - React 19
 - Vite
 - CSS Modules
+- Pretendard (폰트)
+
+## 프로젝트 구조
+
+```
+src/
+├── App.jsx               # 루트 컴포넌트
+├── App.module.css
+├── index.css             # 전역 스타일 (변수, 카드, 태그 등)
+├── main.jsx
+└── components/
+    ├── Header.jsx        # 이름, 직함, 연락처
+    ├── AboutMe.jsx       # 자기소개
+    ├── Skills.jsx        # 기술 스택
+    ├── Career.jsx        # 경력 및 프로젝트
+    └── Achievements.jsx  # 핵심 성과, 학력, 자격증
+```
 
 ## 로컬 실행
 
