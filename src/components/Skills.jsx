@@ -1,3 +1,7 @@
+/* Skills 섹션 - 스킬 그룹별 태그 렌더링
+   skillGroups 배열에서 그룹 추가/수정 가능
+   color: 'blue' | 'purple' | 'green' → index.css 의 .tag 색상 클래스에 대응 */
+
 import styles from './Skills.module.css'
 
 const skillGroups = [
@@ -23,6 +27,7 @@ const skillGroups = [
   },
 ]
 
+/* color 값 → CSS 클래스명 매핑 */
 const colorMap = { blue: '', purple: 'tag-purple', green: 'tag-green' }
 
 export default function Skills() {

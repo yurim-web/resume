@@ -1,3 +1,8 @@
+/* Achievements 섹션 - 핵심 성과 + 학력/자격증
+   achievements: 핵심 성과 목록
+   education: 학력·교육 이력
+   licenses: 자격증 목록 */
+
 import styles from './Achievements.module.css'
 
 const achievements = [

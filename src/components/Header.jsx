@@ -1,3 +1,6 @@
+/* Header 섹션 - 이름, 직함, 연락처 정보
+   contacts 배열에서 연락처 항목 수정 가능 */
+
 import styles from './Header.module.css'
 
 const contacts = [

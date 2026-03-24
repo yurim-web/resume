@@ -1,18 +1,29 @@
+/* ===================================================
+   index.css - 전역 스타일
+   공통으로 쓰이는 변수, 레이아웃, 유틸리티 클래스 정의
+   컴포넌트별 스타일은 각 *.module.css 파일에 작성
+   =================================================== */
+
+/* 구글 폰트 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Noto+Sans+KR:wght@400;500;700&display=swap');
 
+/* 리셋 */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* ===== CSS 변수 =====
+   색상, 반경, 그림자 등 디자인 토큰
+   수정 시 전체 페이지에 반영됨 */
 :root {
-  --navy: #1e2d40;
-  --accent: #5b8dee;
-  --accent2: #a78bfa;
+  --navy: #1e2d40;           /* 기본 텍스트 (진한 네이비) */
+  --accent: #5b8dee;         /* 포인트 블루 */
+  --accent2: #a78bfa;        /* 포인트 퍼플 */
   --text: #1e2d40;
-  --text-sub: #4a5568;
-  --text-light: #718096;
+  --text-sub: #4a5568;       /* 본문 보조 텍스트 */
+  --text-light: #718096;     /* 흐린 텍스트 (날짜, 라벨 등) */
   --card-bg: rgba(255, 255, 255, 0.82);
   --card-border: rgba(255, 255, 255, 0.6);
   --radius: 16px;
@@ -27,6 +38,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ===== 배경 그라디언트 =====
+   포트폴리오(yurim-web.github.io)와 동일한 파스텔 톤 */
 #root {
   min-height: 100vh;
   background:
@@ -38,13 +51,15 @@ body {
     #faf8f5;
 }
 
+/* ===== 레이아웃 ===== */
 .resume-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 2.5rem 1.5rem 5rem;
 }
 
-/* CARD */
+/* ===== 공통 카드 =====
+   각 섹션을 감싸는 반투명 유리(glassmorphism) 카드 */
 .card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
@@ -55,7 +70,8 @@ body {
   -webkit-backdrop-filter: blur(12px);
 }
 
-/* SECTION TITLE */
+/* ===== 섹션 타이틀 =====
+   "ABOUT ME", "SKILLS" 등 대문자 라벨 + 오른쪽 구분선 */
 .section-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.7rem;
@@ -75,13 +91,8 @@ body {
   background: linear-gradient(to right, rgba(91, 141, 238, 0.3), transparent);
 }
 
-.divider {
-  height: 1px;
-  background: linear-gradient(to right, rgba(30, 45, 64, 0.08), transparent);
-  margin: 2rem 0;
-}
-
-/* TAG */
+/* ===== 태그 (스킬·기여도 뱃지) =====
+   color 변형: 기본(blue) / tag-purple / tag-green / tag-navy */
 .tag {
   display: inline-flex;
   align-items: center;
@@ -110,7 +121,8 @@ body {
   border-color: rgba(30, 45, 64, 0.15);
 }
 
-/* PRINT */
+/* ===== 인쇄/PDF 출력 =====
+   배경 제거, 카드 테두리 단순화, .no-print 요소 숨김 */
 @media print {
   #root { background: white !important; }
   .card {
@@ -126,7 +138,7 @@ body {
   .section-title { font-size: 0.65rem; }
 }
 
-/* RESPONSIVE */
+/* ===== 반응형 (모바일) ===== */
 @media (max-width: 640px) {
   .resume-container { padding: 1.2rem 0.8rem 3rem; }
   .card { padding: 1.4rem 1.2rem; }

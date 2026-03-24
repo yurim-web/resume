@@ -1,3 +1,5 @@
+/* About Me 섹션 - 자기소개 3줄 */
+
 import styles from './AboutMe.module.css'
 
 export default function AboutMe() {

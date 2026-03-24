@@ -1,4 +1,6 @@
-import './index.css'
+/* 루트 컴포넌트 - 섹션 순서: Header → AboutMe → Skills → Career → Achievements → Footer */
+
+import styles from './App.module.css'
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
@@ -12,24 +14,25 @@ function App() {
       <AboutMe />
       <Skills />
 
-      {/* Career 섹션 타이틀 */}
-      <div style={{ marginBottom: '1rem' }}>
-        <p className="section-title" style={{ marginBottom: 0 }}>Work Experience</p>
+      {/* Work Experience 섹션 타이틀 + Career 목록 */}
+      <div className={styles.sectionTitleWrap}>
+        <p className="section-title">Work Experience</p>
       </div>
       <Career />
 
       <Achievements />
 
-      <footer className="no-print" style={{
-        textAlign: 'center',
-        padding: '2rem 0 1rem',
-        fontSize: '0.75rem',
-        color: 'var(--text-light)',
-        fontFamily: 'Montserrat, sans-serif',
-        letterSpacing: '0.05em',
-      }}>
-        © 2026 Lee Yurim · <a href="https://yurim-web.github.io" target="_blank" rel="noreferrer"
-          style={{ color: 'var(--accent)', textDecoration: 'none' }}>Portfolio</a>
+      {/* 하단 푸터 - 인쇄 시 숨김 */}
+      <footer className={`no-print ${styles.footer}`}>
+        © 2026 Lee Yurim ·{' '}
+        <a
+          href="https://yurim-web.github.io"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.footerLink}
+        >
+          Portfolio
+        </a>
       </footer>
     </div>
   )

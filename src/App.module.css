@@ -1,0 +1,20 @@
+/* Work Experience 섹션 타이틀 감싸는 wrapper */
+.sectionTitleWrap {
+  margin-bottom: 1rem;
+}
+
+/* 하단 저작권 푸터 */
+.footer {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  font-size: 0.75rem;
+  color: var(--text-light);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* 푸터 포트폴리오 링크 */
+.footerLink {
+  color: var(--accent);
+  text-decoration: none;
+}

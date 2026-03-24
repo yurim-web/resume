@@ -1,3 +1,8 @@
+/* Career 섹션 - 경력 목록 (회사별 카드)
+   careers 배열에서 회사/프로젝트 추가·수정 가능
+   - period: 프로젝트 기간 (선택)
+   - achievements: 주요 성과 박스 (선택) */
+
 import styles from './Career.module.css'
 
 const careers = [
