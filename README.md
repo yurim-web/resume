@@ -1,16 +1,30 @@
-# React + Vite
+# 경력기술서 - 이유림
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+웹 퍼블리셔 & 프론트엔드 개발자 이유림의 경력기술서 페이지입니다.
 
-Currently, two official plugins are available:
+🔗 **배포 URL:** https://yurim-web.github.io/resume
+🔗 **포트폴리오:** https://yurim-web.github.io
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 기술 스택
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- CSS Modules
 
-## Expanding the ESLint configuration
+## 로컬 실행
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## 배포
+
+```bash
+npm run deploy
+```
+
+`gh-pages` 브랜치에 빌드 결과물을 자동으로 배포합니다.
+GitHub 레포 Settings → Pages → Source를 `gh-pages` 브랜치로 설정해야 합니다.
