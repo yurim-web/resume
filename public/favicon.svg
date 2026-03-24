@@ -1,22 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <radialGradient id="bg1" cx="30%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#ffc8d4" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#c8e6e6" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#ffdab9" stop-opacity="0.9"/>
-    </radialGradient>
-  </defs>
-  <!-- 배경 원 - 포트폴리오 파스텔 그라디언트 -->
-  <circle cx="32" cy="32" r="32" fill="url(#bg1)"/>
-  <!-- 이니셜 YR - 네이비 컬러 -->
   <text
     x="32"
-    y="42"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="22"
+    y="50"
+    font-family="Georgia, serif"
+    font-size="52"
     font-weight="700"
-    fill="#1e2d40"
+    fill="#5b8dee"
     text-anchor="middle"
-    letter-spacing="1"
-  >YR</text>
+  >Y</text>
 </svg>
