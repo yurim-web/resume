@@ -18,22 +18,24 @@
    색상, 반경, 그림자 등 디자인 토큰
    수정 시 전체 페이지에 반영됨 */
 :root {
-  --navy: #1e2d40;           /* 기본 텍스트 (진한 네이비) */
-  --accent: #5b8dee;         /* 포인트 블루 */
-  --accent2: #a78bfa;        /* 포인트 퍼플 */
-  --text: #1e2d40;
-  --text-sub: #4a5568;       /* 본문 보조 텍스트 */
-  --text-light: #718096;     /* 흐린 텍스트 (날짜, 라벨 등) */
-  --card-bg: rgba(255, 255, 255, 0.82);
-  --card-border: rgba(255, 255, 255, 0.6);
-  --radius: 16px;
-  --shadow: 0 4px 24px rgba(30, 45, 64, 0.08);
+  --navy: #1a2535;           /* 기본 텍스트 (진한 네이비) */
+  --accent: #4a7fd4;         /* 포인트 블루 */
+  --accent2: #8b6fd4;        /* 포인트 퍼플 */
+  --text: #1a2535;
+  --text-sub: #2d3f55;       /* 본문 텍스트 - 가독성을 위해 진하게 */
+  --text-light: #5a6d82;     /* 보조 텍스트 (날짜, 라벨 등) */
+  --card-bg: rgba(255, 255, 255, 0.93);
+  --card-border: rgba(200, 210, 220, 0.6);
+  --radius: 12px;
+  --shadow: 0 2px 16px rgba(30, 45, 64, 0.07);
 }
 
 html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Pretendard Variable', Pretendard, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
   color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
@@ -53,21 +55,23 @@ body {
 
 /* ===== 레이아웃 ===== */
 .resume-container {
-  max-width: 900px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 5rem;
+  padding: 2rem 1.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-/* ===== 공통 카드 =====
-   각 섹션을 감싸는 반투명 유리(glassmorphism) 카드 */
+/* ===== 공통 카드 ===== */
 .card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
-  padding: 2rem 2.4rem;
+  padding: 1.8rem 2.2rem;
   box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 /* ===== 섹션 타이틀 =====
