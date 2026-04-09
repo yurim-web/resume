@@ -1,11 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <text
-    x="32"
-    y="50"
-    font-family="Georgia, serif"
-    font-size="52"
-    font-weight="700"
-    fill="#5b8dee"
-    text-anchor="middle"
-  >Y</text>
+  <!-- U 글자 (둥근 하단) -->
+  <path d="M12 8 L12 36 Q12 56 32 56 Q52 56 52 36 L52 8" fill="none" stroke="#5b8dee" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 점 -->
+  <circle cx="57" cy="52" r="5" fill="#5b8dee"/>
 </svg>
