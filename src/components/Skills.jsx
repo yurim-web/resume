@@ -23,12 +23,17 @@ const skillGroups = [
   {
     label: 'Tools',
     color: 'green',
-    skills: ['Git / GitHub / SourceTree', 'VSCode / Cursor', 'Notion / Confluence / Box'],
+    skills: ['Git / GitHub / SourceTree', 'VSCode', 'Notion / Confluence / Box'],
+  },
+  {
+    label: 'AI Tools',
+    color: 'navy',
+    skills: ['Cursor AI', 'Claude Code', 'Codex', 'Gemini', 'ChatGPT', 'MCP 서버 활용'],
   },
 ]
 
 /* color 값 → CSS 클래스명 매핑 */
-const colorMap = { blue: '', purple: 'tag-purple', green: 'tag-green' }
+const colorMap = { blue: '', purple: 'tag-purple', green: 'tag-green', navy: 'tag-navy' }
 
 export default function Skills() {
   return (
