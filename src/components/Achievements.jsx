@@ -7,7 +7,7 @@ import styles from './Achievements.module.css'
 
 const achievements = [
   '상용 SaaS 서비스(ReportingX.) 프론트엔드를 단독으로 구현하여 서비스 런칭에 기여',
-  '카페24 쇼핑몰 2개 제작 → 디자인·퍼블리싱·배포 전 과정 수행',
+  '카페24 쇼핑몰 2개 제작 → 퍼블리싱·배포 전 과정 수행',
   '디자인 → 퍼블리싱 → 프론트엔드 개발까지 확장된 풀스택 UI 역량',
   'Git 협업 및 서버 배포 경험으로 운영·배포 프로세스 이해',
 ]
@@ -19,7 +19,6 @@ const education = [
 
 const licenses = [
   { date: '2023.09', content: '컴퓨터그래픽스운용기능사' },
-  { date: '2023.09', content: 'TOEIC Speaking Test (120)' },
   { date: '2020.09', content: 'GTQ 포토샵 1급' },
 ]
 
