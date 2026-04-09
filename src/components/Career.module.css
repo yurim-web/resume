@@ -175,3 +175,10 @@
   .companyHeader { flex-direction: column; align-items: flex-start; }
   .summary { padding-left: 0; }
 }
+
+@media print {
+  .careerList { gap: 0.8rem; }
+  .careerCard + .careerCard { padding-top: 0.8rem; }
+  .summary { margin-bottom: 0.8rem; }
+  .projects { gap: 0.6rem; }
+}

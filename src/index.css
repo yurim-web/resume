@@ -147,6 +147,7 @@ body {
   .resume-container {
     padding: 0;
     max-width: 100%;
+    gap: 0.4rem;
   }
 
   .card {
@@ -156,9 +157,8 @@ body {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     border-radius: 8px !important;
-    break-inside: avoid;
-    margin-bottom: 0.8rem;
-    padding: 1.2rem 1.4rem;
+    margin-bottom: 0.4rem;
+    padding: 1rem 1.2rem;
   }
 
   /* 태그 배경색 인쇄 시 유지 */
