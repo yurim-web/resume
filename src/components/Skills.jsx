@@ -36,7 +36,7 @@ export default function Skills() {
       <p className="section-title">Skills</p>
       <div className={styles.groups}>
         {skillGroups.map(({ label, color, skills }) => (
-          <div key={label} className={styles.group}>
+          <div key={label}>
             <p className={styles.groupLabel}>{label}</p>
             <div className={styles.tags}>
               {skills.map((s) => (

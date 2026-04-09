@@ -1,5 +1,5 @@
 .header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .top {
@@ -7,7 +7,21 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.nameArea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profileImg {
+  width: 5.5rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
 }
 
 .nameBlock {
@@ -17,17 +31,15 @@
 }
 
 .name {
-  font-family: 'Pretendard Variable', Pretendard, sans-serif;
-  font-size: 2.6rem;
-  font-weight: 900;
+  font-size: 2.4rem;
+  font-weight: 750;
   color: var(--navy);
-  letter-spacing: -0.03em;
+  letter-spacing: 0.02em;
   line-height: 1;
 }
 
 .nameEn {
-  font-family: 'Pretendard Variable', Pretendard, sans-serif;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--text-light);
   letter-spacing: 0.05em;
@@ -35,8 +47,8 @@
 }
 
 .role {
-  margin-top: 0.5rem;
-  font-size: 0.92rem;
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-sub);
   letter-spacing: 0.03em;
@@ -44,10 +56,9 @@
 
 .portfolioBtn {
   flex-shrink: 0;
-  padding: 0.5rem 1rem;
+  padding: 0.45rem 0.9rem;
   border-radius: 999px;
-  font-family: 'Pretendard Variable', Pretendard, sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   color: var(--accent);
@@ -65,7 +76,7 @@
 .contacts {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
+  gap: 0.5rem;
 }
 
 .contactItem {
@@ -73,20 +84,19 @@
   align-items: center;
   gap: 0.4rem;
   text-decoration: none;
-  padding: 0.4rem 0.8rem;
+  padding: 0.35rem 0.7rem;
   border-radius: 8px;
-  background: rgba(30, 45, 64, 0.04);
-  border: 1px solid rgba(30, 45, 64, 0.08);
+  background: rgba(91, 141, 238, 0.05);
+  border: 1px solid rgba(91, 141, 238, 0.15);
   transition: background 0.2s;
 }
 
 .contactItem:hover {
-  background: rgba(30, 45, 64, 0.08);
+  background: rgba(91, 141, 238, 0.1);
 }
 
 .contactLabel {
-  font-family: 'Pretendard Variable', Pretendard, sans-serif;
-  font-size: 0.68rem;
+  font-size: 0.66rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -98,8 +108,8 @@
   color: var(--text-sub);
 }
 
-@media (max-width: 480px) {
-  .name { font-size: 2rem; }
+@media (max-width: 640px) {
+  .name { font-size: 2.1rem; }
   .top { flex-direction: column; }
   .portfolioBtn { align-self: flex-start; }
 }
