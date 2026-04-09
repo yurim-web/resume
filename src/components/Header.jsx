@@ -14,10 +14,13 @@ export default function Header() {
   return (
     <header className={`card ${styles.header}`}>
       <div className={styles.top}>
-        <div className={styles.nameBlock}>
-          <p className={styles.name}>이유림</p>
-          <p className={styles.nameEn}>Lee Yurim</p>
-          <p className={styles.role}>Web Publisher · Frontend Developer</p>
+        <div className={styles.nameArea}>
+          <img src={`${import.meta.env.BASE_URL}myimg.png`} alt="이유림" className={styles.profileImg} />
+          <div className={styles.nameBlock}>
+            <p className={styles.name}>이유림</p>
+            <p className={styles.nameEn}>Lee Yurim</p>
+            <p className={styles.role}>Web Publisher · Frontend Developer</p>
+          </div>
         </div>
         <a
           href="https://yurim-web.github.io"
