@@ -91,6 +91,10 @@ const careers = [
           '모바일 앱 UI 전체 설계 및 디자인',
           '앱 전체 UX 플로우 설계 및 컬러/그래프 UI 컴포넌트 제작',
         ],
+        achievements: [
+          '웹·앱 UI 디자인을 단독으로 전담하며 실무 디자인 역량 확보',
+          '반응형 레이아웃 설계 경험을 통해 퍼블리싱으로의 직무 확장 기반 마련',
+        ],
       },
     ],
   },
@@ -107,6 +111,11 @@ const careers = [
           '인스타그램/블로그 채널 콘텐츠 기획 및 원고 작성',
           '브랜드 톤앤매너 기반 썸네일 · 카드뉴스 · 광고 이미지 제작',
           '릴스/쇼츠 숏폼 영상 편집',
+          'SNS 채널 운영을 통한 플랫폼별 콘텐츠 전략 이해',
+        ],
+        achievements: [
+          '카드뉴스·광고 이미지 등 다양한 포맷의 기획·제작을 반복하며 비주얼 기획력 향상',
+          'SNS 운영 경험을 통해 사용자 관점의 콘텐츠 구성 감각 습득',
         ],
       },
     ],
@@ -115,10 +124,11 @@ const careers = [
 
 export default function Career() {
   return (
-    <section className={styles.section}>
+    <section className={`card ${styles.section}`}>
+      <p className="section-title">Work Experience</p>
       <div className={styles.careerList}>
         {careers.map((career, ci) => (
-          <div key={ci} className={`card ${styles.careerCard}`}>
+          <div key={ci} className={styles.careerCard}>
             {/* Company Header */}
             <div className={styles.companyHeader}>
               <div className={styles.companyLeft}>

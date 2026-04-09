@@ -14,10 +14,6 @@ function App() {
       <AboutMe />
       <Skills />
 
-      {/* Work Experience 섹션 타이틀 + Career 목록 */}
-      <div className={styles.sectionTitleWrap}>
-        <p className="section-title">Work Experience</p>
-      </div>
       <Career />
 
       <Achievements />
