@@ -9,7 +9,7 @@ const careers = [
   {
     company: '(주)청명종합광고기획',
     role: '프론트엔드 개발자',
-    period: '2025.04 ~ 재직 중',
+    period: '2025.04 ~ 2026.03',
     summary: '상용 웹서비스 프론트엔드 개발 · 유지보수 · 서버 배포 참여',
     emoji: '💻',
     projects: [
